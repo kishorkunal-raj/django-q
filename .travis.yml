@@ -15,6 +15,10 @@ env:
 sudo: true
 dist: xenial
 
+arch:
+  - amd64
+  - ppc64le
+
 addons:
   apt:
     packages:
